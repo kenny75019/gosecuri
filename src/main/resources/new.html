@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Liste du personnel</h1>
+<div style="display: flex;height: 200px; justify-content: space-between;">
+    <div>
+        <ul>
+            <li>cberthier</li>
+<li>sconnor</li>
+<li>jmacclane</li>
+<li>afoley</li>
+<li>mriggs</li>
+<li>jwest</li>
+<li>sholmes</li>
+<li>jrouletabille</li>
+
+        </ul>
+    </div>
+    <div>
+        <img src="./cberthier.jpg" alt="">
+
+    </div>
+</div>
+<div style="display: grid;grid-template-columns:1fr 1fr;grid-gap: 4px;">
+    <div style="display: flex;flex-direction: column; justify-content: end;align-items: flex-end;">
+        <label for="mousqueton">Mousqueton</label>
+        <label for="Gants">gants d intervention</label>
+        <label for="brassard">Brassard de sécurité</label>
+        <label for="menottes">Porte menottes</label>
+        <label for="cyno">Bandeau agent cynophile</label>
+        <label for="talky">Talkies walkies</label>
+        <label for="lampe">Lampe Torche</label>
+        <label for="kit">Kit oreillette</label>
+        <label for="lacrymo">Bombes lacrymogènes</label>
+    </div>
+    <div style="display: flex;flex-direction: column; justify-content: flex-start;">
+        <input type="checkbox" id="mousqueton" readonly>
+        <input type="checkbox" id="Gants" readonly>
+        <input type="checkbox" id="brassard" readonly>
+        <input type="checkbox" id="menottes" readonly>
+        <input type="checkbox" id="cyno" readonly>
+        <input type="checkbox" id="talky" readonly>
+        <input type="checkbox" id="lampe" readonly>
+        <input type="checkbox" id="kit" readonly>
+        <input type="checkbox" id="taser" readonly>
+        <input type="checkbox" id="lacrymo" readonly>
+
+    </div>
+</div>
+</body>
+</html>
