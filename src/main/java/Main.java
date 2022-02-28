@@ -21,7 +21,7 @@ public class Main {
             listeStaff = listeStaff + "<li>"+ s + "</li>\n";
         }
         htmlString = htmlString.replace("$listeStaff", listeStaff);
-        File newHtmlFile = new File("src/main/resources/new.html");
+        File newHtmlFile = new File("/var/www/html/new.html");
         FileUtils.writeStringToFile(newHtmlFile, htmlString);
 
     }
